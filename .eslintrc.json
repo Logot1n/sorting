@@ -17,7 +17,11 @@
     "no-underscore-dangle": ["error", { "allowAfterThis": true }],
     "no-plusplus": "off",
     "no-alert": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "max-len": ["error", { "code": 200 }],
+    "no-param-reassign": "off",
+    "no-else-return": "off",
+    "no-lonely-if": "off"
   },
   "parserOptions": {
     "ecmaVersion": 2018,
